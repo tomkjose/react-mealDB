@@ -3,6 +3,7 @@ import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import "../styles/index.css"
 function PageNumber({totalPages,onPageChange}) {
+ 
     const handlePageChange = (event, page) => {
       onPageChange(page);
     };

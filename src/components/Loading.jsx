@@ -7,11 +7,11 @@ function Loading() {
     const repeatNumber = 6;
   return (
 
-    <div className='loadingContainer'>
+    <div  className='loadingContainer'>
 {  Array.from({ length: repeatNumber }, (_, index) => (
    
 
-        <Card sx={{ maxWidth: 345, m: 2 ,width:'33%'}}>
+        <Card sx={{ maxWidth: 345, m: 2 ,width:'33%'}} key={index} >
     <CardContent>
        <Skeleton sx={{ height: 190 }} animation="wave" variant="rectangular" />
            <Skeleton
