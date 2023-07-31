@@ -1,0 +1,32 @@
+.meal-container{
+    margin-top: 1.2rem;
+    display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   border-radius: 0.8rem;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.meals-image-container{
+    padding: 1rem;
+    width: 50%;
+}
+.meals-instruction-container{
+    padding: 1rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.meals-image{
+    border-radius: 0.8rem;
+}
+
+.meals-instruction{
+     padding-top: 1rem;
+}
+
+.meals-category, .meals-tags{
+    color: rgb(126, 126, 126);
+    padding-top: 1rem;
+}

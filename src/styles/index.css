@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+.homeContainer{
+    padding-top:1.2rem ;
+}
+
+.category-card,.meals-card{
+    margin-top: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    width: 100%;
+}
+
+.meals-card{
+    width: 100%;
+}
+
+.page-number{
+    margin:1rem ;
+    display: flex;
+    justify-content: center;
+}
+
+.loadingContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-btn:hover{
+    background-color: #f8b014;
+}
