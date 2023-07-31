@@ -7,7 +7,6 @@ function Random() {
   useEffect(()=>{
     const fetchMealData = async ()=>{
      const response = await axios.get(`https://www.themealdb.com/api/json/v1/1/random.php`)
-      console.log('response.data', response.data.meals[0])
       setMeal( response.data.meals[0])
       }
       fetchMealData();

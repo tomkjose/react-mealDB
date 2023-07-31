@@ -77,19 +77,20 @@ function Navbar() {
               onClose={handleCloseNavMenu}
               sx={{
                 display: { xs: 'block', md: 'none' },
+                
                
               }}
             >
               
-                <MenuItem onClick={handleCloseNavMenu} sx={{backgroundColor:'#fbb726'}}>
+                <MenuItem onClick={handleCloseNavMenu} sx={{backgroundColor:'#fbb726',"&:hover":{backgroundColor:'#f7ac0a'}}}>
                   <Typography textAlign="center"><Link to='/' style={{color: 'white', backgroundColor:'#fbb726'}}>Home</Link></Typography>
                 </MenuItem>
                 
-                <MenuItem onClick={handleCloseNavMenu} sx={{backgroundColor:'#fbb726'}}>
-                  <Typography textAlign="center"><Link to='/random' style={{color: 'white', backgroundColor:'#fbb726'}}>Random</Link></Typography>
+                <MenuItem onClick={handleCloseNavMenu} sx={{backgroundColor:'#fbb726',"&:hover":{backgroundColor:'#f7ac0a'}}}>
+                  <Typography textAlign="center"><Link to='/random' style={{color: 'white', backgroundColor:'#fbb726',}}>Random</Link></Typography>
                 </MenuItem>
                 
-                <MenuItem onClick={handleCloseNavMenu} sx={{backgroundColor:'#fbb726'}}>
+                <MenuItem onClick={handleCloseNavMenu} sx={{backgroundColor:'#fbb726',"&:hover":{backgroundColor:'#f7ac0a'}}}>
                   <Typography textAlign="center"><Link to='/about' style={{color: 'white', backgroundColor:'#fbb726'}}>About Us</Link></Typography>
                 </MenuItem>
               
@@ -119,23 +120,23 @@ function Navbar() {
               <Button
             
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block',backgroundColor:"#fbb726" }}
+                sx={{ my: 2, color: 'white', display: 'block',backgroundColor:"#fbb726" ,"&:hover":{backgroundColor:'#f7ac0a'}}}
               >
-                <Link to='/' style={{color: 'white'}}>Home</Link>
+                <Link to='/' style={{color: 'white',"&:hover":{backgroundColor:'#f7ac0a'}}}>Home</Link>
               </Button>
               <Button
             
             onClick={handleCloseNavMenu}
-            sx={{ my: 2, color: 'white', display: 'block',backgroundColor:"#fbb726" }}
+            sx={{ my: 2, color: 'white', display: 'block',backgroundColor:"#fbb726","&:hover":{backgroundColor:'#f7ac0a'} }}
           >
-            <Link to='/random' style={{color: 'white'}}>Random</Link>
+            <Link to='/random' style={{color: 'white', "&:hover":{backgroundColor:'#f7ac0a'}}}>Random</Link>
           </Button>
           <Button
             
             onClick={handleCloseNavMenu}
-            sx={{ my: 2, color: 'white', display: 'block',backgroundColor:"#fbb726"  }}
+            sx={{ my: 2, color: 'white', display: 'block',backgroundColor:"#fbb726","&:hover":{backgroundColor:'#f7ac0a'}  }}
           >
-            <Link to='/about' style={{color: 'white'}} >About Us</Link>
+            <Link to='/about' style={{color: 'white',"&:hover":{backgroundColor:'#f7ac0a'}}} >About Us</Link>
           </Button>
      
           </Box>

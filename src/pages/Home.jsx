@@ -27,8 +27,7 @@ function Home() {
    const firstElement = lastElement-itemsPerPage;
   
    const category = categories.slice(firstElement,lastElement);
-   console.log('firstElement', firstElement)
-   console.log('firstElement', lastElement)
+  
  
    
    const handlePageClick= (index)=>{
